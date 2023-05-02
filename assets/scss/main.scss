@@ -1,0 +1,89 @@
+
+@import './fonts';
+@import './carousel';
+
+ // With or without this line, it still doesn't work
+ html {
+  scroll-behavior: smooth;
+
+}
+body{
+  font-family: 'Helvt', Helvetica ,Arial, sans-serif;
+}
+
+.fw-bold{
+  font-weight: bold;
+}
+.fw-light{
+  font-weight: lighter;
+}
+.fw-medium{
+  font-weight: 600;
+}
+
+.list-style-none{
+  list-style: none;
+  padding: 0;
+}
+
+
+.position-absolute{
+  position: absolute;
+}
+.position-relative{
+  position: relative;
+}
+
+.btn-radius{
+  border-radius: 1.5em;
+}
+.w-100{
+  width: 100%;
+}
+.h-100{
+  height: 100%;
+}
+.max-width-content{
+  max-width: 1563px;
+}
+
+//Grid
+.m-grid{
+  grid-template-columns: repeat(2,1fr);
+}
+
+.expansion-panel{
+  height: 35px;
+  @media (max-width: 430px) {
+    height: 55px;
+    }
+}
+
+.video-js .vjs-big-play-button{
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%) !important;
+  @media (max-width: 430px) {
+  top: 40% !important;
+  }
+}
+
+.opacity-icon{
+  opacity: .4;
+}
+
+.appear{
+  opacity: 0;
+  animation: appear .3s ease both;
+}
+
+@keyframes appear {
+  to{
+    opacity: 1;
+  }
+}
+
+.img-cover img{
+  object-fit: contain;
+}
+

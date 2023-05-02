@@ -1,0 +1,21 @@
+mutation (
+  $name: String
+  $fullname: String
+  $email: String
+  $creadoEnIp: String
+  $acepta: Boolean
+  $sitio: String
+  $location: String
+) {
+  PoliciesUsuarios(
+    name: $name
+    fullname: $fullname
+    email: $email
+    location: $location
+    creadoEnIp: $creadoEnIp
+    acepta: $acepta
+    sitio: $sitio
+  ) {
+    success
+  }
+}

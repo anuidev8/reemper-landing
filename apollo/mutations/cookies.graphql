@@ -1,0 +1,19 @@
+mutation (
+  $name: String
+  $location: String
+  $creadoEnIp: String
+  $sitio: String
+  $acepta: Boolean
+  $cookie: String
+) {
+  CookiesUsuarios(
+    name: $name
+    location: $location
+    creadoEnIp: $creadoEnIp
+    sitio: $sitio
+    acepta: $acepta
+    cookie: [$cookie]
+  ) {
+    success
+  }
+}
