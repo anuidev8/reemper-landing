@@ -105,8 +105,8 @@
           this.loadingButton.state = true
           let data = {}
           
-            const getData = await fetch('https://ipapi.co/json/')
-            const { ip,city } = await getData.json()
+         /*    const getData = await fetch('https://ipapi.co/json/')
+            const { ip,city } = await getData.json() */
             if(ip && city){
               switch (type) {
             case 'reject':
