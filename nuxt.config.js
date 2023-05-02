@@ -233,6 +233,6 @@ fbq('track', 'PageView');
         removeEmptyElements: true
       }
     },
-    analyze: true
+    
   },
 };
