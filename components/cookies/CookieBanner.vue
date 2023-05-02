@@ -56,7 +56,7 @@
   import Logo from '@/components/icons/brand/Logo'
   import CookieBannerSetting from './CookieBannerSetting'
   import PrevBtn from './PrevBtn'
-  export default {
+  export default{
     mixins: [CookiesSettings],
     components: {
       Logo,
