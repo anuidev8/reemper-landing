@@ -16,7 +16,7 @@
     "@nuxtjs/apollo": "^4.0.1-rc.5",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/vercel-builder": "^0.24.0",
+    "@nuxtjs/vercel-builder": "^0.23.0",
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-link-http": "^1.5.17",
     "core-js": "^3.8.3",
